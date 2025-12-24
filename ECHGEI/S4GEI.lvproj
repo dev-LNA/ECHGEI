@@ -17,10 +17,6 @@
 			<Item Name="get_ACS_status.vi" Type="VI" URL="../get_ACS_status.vi"/>
 			<Item Name="publish_status.vi" Type="VI" URL="../publish_status.vi"/>
 		</Item>
-		<Item Name="FWCS Comm" Type="Folder">
-			<Item Name="FWCS_Stream.vi" Type="VI" URL="../FWCS_Stream.vi"/>
-			<Item Name="FWCS_TCPIP.vi" Type="VI" URL="../FWCS_TCPIP.vi"/>
-		</Item>
 		<Item Name="Channel.lvclass" Type="LVClass" URL="../Channel GUI/Channel.lvclass"/>
 		<Item Name="RxTx.lvclass" Type="LVClass" URL="../RxTx/RxTx.lvclass"/>
 		<Item Name="S4GEI.lvclass" Type="LVClass" URL="../S4GEI/S4GEI.lvclass"/>
@@ -44,9 +40,7 @@
 				<Item Name="LVDateTimeRec.ctl" Type="VI" URL="/&lt;vilib&gt;/Utility/miscctls.llb/LVDateTimeRec.ctl"/>
 				<Item Name="Clear Errors.vi" Type="VI" URL="/&lt;vilib&gt;/Utility/error.llb/Clear Errors.vi"/>
 			</Item>
-			<Item Name="Stream.lvclass" Type="LVClass" URL="../Stream/Stream.lvclass"/>
 			<Item Name="TCS.lvclass" Type="LVClass" URL="../TCS/TCS.lvclass"/>
-			<Item Name="Interface.lvclass" Type="LVClass" URL="../Interface/Interface.lvclass"/>
 			<Item Name="Erase Message.vi" Type="VI" URL="../Channel GUI/Erase Message.vi"/>
 		</Item>
 		<Item Name="Build Specifications" Type="Build">
@@ -88,11 +82,11 @@
 				<Property Name="Source[2].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[2].type" Type="Str">VI</Property>
 				<Property Name="Source[3].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[3].itemID" Type="Ref">/My Computer/FWCS Comm/FWCS_Stream.vi</Property>
+				<Property Name="Source[3].itemID" Type="Ref"></Property>
 				<Property Name="Source[3].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[3].type" Type="Str">VI</Property>
 				<Property Name="Source[4].destinationIndex" Type="Int">0</Property>
-				<Property Name="Source[4].itemID" Type="Ref">/My Computer/FWCS Comm/FWCS_TCPIP.vi</Property>
+				<Property Name="Source[4].itemID" Type="Ref"></Property>
 				<Property Name="Source[4].sourceInclusion" Type="Str">Include</Property>
 				<Property Name="Source[4].type" Type="Str">VI</Property>
 				<Property Name="Source[5].destinationIndex" Type="Int">0</Property>
